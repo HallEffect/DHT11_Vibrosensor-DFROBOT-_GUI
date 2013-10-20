@@ -1,0 +1,16 @@
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\obj\Debug\Метеостанция.csprojResolveAssemblyReference.cache
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\obj\Debug\Метеостанция.csproj.GenerateResource.Cache
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\obj\Debug\Interop.LCC11.dll
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\obj\Debug\Метеостанция.csproj.ResolveComReference.cache
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\obj\Debug\Vibro.Form1.resources
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\obj\Debug\Vibro.Properties.Resources.resources
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\bin\Debug\VibrosensorGUI.exe.config
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\bin\Debug\VibrosensorGUI.exe.manifest
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\bin\Debug\VibrosensorGUI.application
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\bin\Debug\VibrosensorGUI.exe
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\bin\Debug\VibrosensorGUI.pdb
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\obj\Debug\VibrosensorGUI.TrustInfo.xml
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\obj\Debug\VibrosensorGUI.exe.manifest
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\obj\Debug\VibrosensorGUI.application
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\obj\Debug\VibrosensorGUI.exe
+C:\Users\Akela\Documents\Visual Studio 2012\Projects\Метеостанция\Метеостанция\obj\Debug\VibrosensorGUI.pdb

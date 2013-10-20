@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VibrosensorGUI.exe" version="0.1.0.1" publicKeyToken="b0f567a2a3347f0c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VibrosensorGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VibrosensorGUI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Параметры манифеста UAC
+          При необходимости изменить уровень управления учетными записями Windows замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Задание узла requestedExecutionLevel отключит виртуализацию файла и реестра.
+            Если виртуализацию файла и реестра нужно использовать для обратной 
+            совместимости, удалите узел requestedExecutionLevel.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VibrosensorGUI.exe" size="13312">
+      <assemblyIdentity name="VibrosensorGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>T142C1ivlEMSJFHhxO8q4BNQCuEOP+q9w2zM6lUZhM4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="VibrosensorGUI.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Список версий Windows, для работы с которыми предназначено данное приложение. 
+      Windows автоматически выберет наиболее совместимую среду.-->
+      <!-- Если приложение предназначено для работы с Windows Vista, снимите комментарий со следующего узла supportedOS-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- Если приложение предназначено для работы с Windows 7, раскомментируйте следующий узел supportedOS-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- Если приложение предназначено для работы с Windows 8, снимите комментарий со следующего узла supportedOS-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Akela-PC\Akela" issuerKeyHash="10f026b989ebe8eeb802e685f8f1183a37cbdf9e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dU0QMfmd3AGSu8S+cxtXhlY2cTSpU/V6Uz0kZTEtZhI=</DigestValue></Reference></SignedInfo><SignatureValue>Ka2W6S/zq4hqZrNWRrv5xBL06Ny5M6cRSQL0DAm/IojwXMO7BKSmOpRzQ9CYQ4FR52LnElPckRyGOnCwfezvrXAX++On/tPHHFE6KUZ0sNQftHLAVYL+x5KGF7bXHAEPNApKSX2PqOXfk6l8YCKJuj7vQvKNoBLbr9X3z9VbQzc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>p0NAIiUiLys0ftHU7arb+rr/CaYczc84R+vfJWDJUCzy2V1oDKO7gsHF1sjxnIh6yaG8aX9Lr5J6O2U8i9ANpfIFXoH2yRRZaw4Y5SFGZavZML3m5sm5fk178A7qwEtPRVaxCVY9Gi52yMRDDktRcJyPFNry7OBn1BgBSpLDvp0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="12662d3165243d537af553a93471365686571b73bec4bb9201dc9df931104d75" Description="" Url=""><as:assemblyIdentity name="VibrosensorGUI.exe" version="0.1.0.1" publicKeyToken="b0f567a2a3347f0c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Akela-PC\Akela</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ViVte5nNN0lwlIiWO2aRmxkoHpYzSvVRFysUMFSFUPQ=</DigestValue></Reference></SignedInfo><SignatureValue>H1OSFleObkw5sQbTZvbG1i480VIjAYPcB3JG+LGPokE5Sh0tXI5cvPdEIxMGoJFbbz0y1SUMURFZod8MH4eUPwgs9omyTAj71m/GP8XC8/bwoWS7SOxS+gfZBSgdZ4W7743+EdhX1I5mP0o0n54pPMG4eMuNE2pBFkwGp96WKoc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>p0NAIiUiLys0ftHU7arb+rr/CaYczc84R+vfJWDJUCzy2V1oDKO7gsHF1sjxnIh6yaG8aX9Lr5J6O2U8i9ANpfIFXoH2yRRZaw4Y5SFGZavZML3m5sm5fk178A7qwEtPRVaxCVY9Gi52yMRDDktRcJyPFNry7OBn1BgBSpLDvp0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQZJR5zuOhtLRPP19hVzApdDANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQQBrAGUAbABhAC0AUABDAFwAQQBrAGUAbABhMB4XDTEzMTAyMDEzNDgzMFoXDTE0MTAyMDE5NDgzMFowJzElMCMGA1UEAx4cAEEAawBlAGwAYQAtAFAAQwBcAEEAawBlAGwAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAp0NAIiUiLys0ftHU7arb+rr/CaYczc84R+vfJWDJUCzy2V1oDKO7gsHF1sjxnIh6yaG8aX9Lr5J6O2U8i9ANpfIFXoH2yRRZaw4Y5SFGZavZML3m5sm5fk178A7qwEtPRVaxCVY9Gi52yMRDDktRcJyPFNry7OBn1BgBSpLDvp0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBBKil/fFhF3VQClW4ZPdGkLTQrHg/2YJklqbYyxBNk9nvDy7l52Nqe2HWkXUnb5HDhtS3UEOKobiMLh99hrbmDfo7a6TGjECcUdau0g1CNxreQG5Es/CGre9SVh5J4t6S58yUds3YqFf8afkTasPQ69O3/FmmPtaa0ssYbrlz07g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
