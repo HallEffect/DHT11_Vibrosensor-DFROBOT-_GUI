@@ -48,7 +48,7 @@ void loop()
     {
         digitalWrite(RED_LED, HIGH);
         digitalWrite(GREEN_LED, LOW);
-        val=analogRead(VIBROPIN);
+        val = analogRead(VIBROPIN);
         
         // Для более качественных результатов, берем серднеарифметическое значение 4 замеров
         for(int i = 0; i < 4; i++)
