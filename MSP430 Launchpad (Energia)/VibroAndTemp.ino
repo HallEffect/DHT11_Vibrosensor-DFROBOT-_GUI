@@ -53,7 +53,7 @@ void loop()
         // Для более качественных результатов, берем серднеарифметическое значение 4 замеров
         for(int i = 0; i < 4; i++)
         {
-           val+=analogRead(VIBROPIN);
+           val += analogRead(VIBROPIN);
         }
 
         val = val / 4;
