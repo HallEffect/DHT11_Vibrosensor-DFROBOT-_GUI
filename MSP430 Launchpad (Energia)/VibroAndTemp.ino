@@ -33,7 +33,7 @@ void setup()
 void loop() 
 { 
     // Если нажата кнопка User, зажигам зеленый светодиод, считываем температуру и влажность
-    if(digitalRead(PUSH2)==!HIGH)    
+    if(digitalRead(PUSH2) == HIGH)    
     {
         digitalWrite(RED_LED, LOW);
         digitalWrite(GREEN_LED, HIGH);
@@ -51,12 +51,12 @@ void loop()
         val=analogRead(VIBROPIN);
         
         // Для более качественных результатов, берем серднеарифметическое значение 4 замеров
-        for(int i=0;i<4;i++)
+        for(int i = 0; i < 4; i++)
         {
            val+=analogRead(VIBROPIN);
         }
 
-        val=val/4;
+        val = val / 4;
         Serial.println(val,DEC);
     }  
 }
